@@ -1,0 +1,66 @@
+<navigation-bar back="{{true}}" color="" background="rgba(255, 123, 0, 1)" title="搜索"></navigation-bar>
+<!-- 自定义顶部导航 S -->
+<view class="navbar custom-class" style='height:{{navHeight}}px;'>
+  <view class="navbar-action-wrap navbar-action-group row item-center" style='top:{{navTop}}px;'>
+    <image style="width: 1rem; height: 1.2rem; " src="{{leftIcon}}" catchtap="goBack"></image>
+  </view>
+  <view class='navbar-title' style='top:{{navTop}}px'>
+    <view class="search-input">
+      <span class="search-con">
+        <view class="center-30f2b4d">
+          <!-- 自定义区域 -->
+          <image class="icon" src="{{searchIcon}}" catchtap="searchbegin" data-postname="{{inputValue}}"></image>
+          <input class="search-size" confirm-type="search" value="{{inputValue}}" type="text" bindinput="getInputValue" placeholder="搜索品牌或商品" placeholder-class="phcolor"></input>
+        </view>
+      </span>
+    </view>
+  </view>
+</view>
+<!-- 自定义顶部导航 E -->
+<view class="read-in">
+  <!-- 最近搜索 S -->
+  <view class="headline" wx:if="{{historyStorage.length!=0}}" hidden="{{historyStorageShow?false:true}}">
+    <view class="head-headline justify">
+      <view class="headline-size">最近搜索</view>
+      <view class="right size" catchtap="remove">清除</view>
+    </view>
+    <!-- 最近搜索内容 S -->
+    <view class="lately-main">
+      <view class="chunk" wx:for="{{historyStorage}}" wx:key="index" bindtap='routeToSearchResPage' data-index='{{index}}'>
+        <text>{{item}}</text>
+      </view>
+    </view>
+    <!-- 最近搜索内容 E -->
+  </view>
+  <!-- 最近搜索 E -->
+  <!-- 热门搜索 S -->
+  <view class="headline">
+    <view class="head-headline">
+      <view class="headline-size">热门搜索</view>
+      <view class="liang">
+        <view class="low-bo">
+          <image class="icon-eye low-bottom" bindtap="reye" src="{{eyeIconOne}}" hidden="{{!eye}}"></image>
+          <image class="icon-eye low-bottom" bindtap="reye" src="{{eyeIcon}}" hidden="{{eye}}"></image>
+        </view>
+        <view class="right size" bindtap="changeother">换一批</view>
+      </view>
+    </view>
+    <!-- 热门推荐内容 S -->
+    <view class="lately-main" hidden="{{eye?false:true}}">
+      <view class="chunk" wx:for="{{falg ? hotsearch1 : hotsearch2}}" wx:key="index">
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+    <!-- 热门推荐内容 E -->
+  </view>
+  <!-- 热门搜索 E -->
+</view>
+
+
+<!--搜索结果-->
+<view class="searchresult" wx:if="{{inputValue != ''}}" hidden="{{searchresult?false:true}}">
+  <view class="result" wx:for="{{searchResult}}" catchtap="searchbegin" wx:key="index" bindtap="getInputValue" data-postname="{{item.result}}">
+    <view>{{item.result}}</view>
+    <image src="{{upperLeftArrow}}"></image>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<navigation-bar title="我的评论" back="{{true}}" background="rgba(255, 123, 0, 1)"></navigation-bar>
+<view class="blank1"></view>
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230811115528.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只快乐的猪</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">赞了你的评论 11-03</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 你好，请问怎样有期徒刑减成死刑？</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230801170010.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只悲伤的猪</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">赞了你的评论 08-17</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 我和我的律师都进去了QAQ</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/search1.png" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只好吃的猪</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">赞了你的评论 06-15</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 我这样还有救嘛？</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">楚夫人</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">赞了你的评论 06-15</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 你好，请问需要咨询什么？</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>

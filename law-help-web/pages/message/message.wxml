@@ -1,0 +1,76 @@
+<navigation-bar title="消息" back="{{false}}" background="rgba(255, 123, 0, 1)"></navigation-bar>
+<view class="top-view">
+  <button class="exchange1" bindtap="contact1" style="position: fixed;margin-left: 125rpx;width: 190rpx;text-align: center;" hover-class="none">
+    <image class="btn-img" src="{{button1}}" mode="widthFix"></image>
+    <text id="c1">及时通讯</text>
+  </button>
+  <button class="exchange1" bindtap="contact2" style="position: fixed;margin-left: 450rpx;width: 190rpx;text-align: center;" hover-class="none">
+    <image class="btn-img" src="{{button2}}" mode="widthFix"></image>
+    <text id="c1">互动消息</text>
+  </button>
+
+
+  <view style="width: 200rpx;"></view>
+</view>
+
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+
+<view class="container1">
+  <view wx:if="{{a==1}}">
+    <view id="a1">
+      <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; left: 30rpx; width: 110rpx; height: 110rpx; border-radius: 50%; " mode="aspectFill"></image>
+      <text style="margin-left: 160rpx;font-size: 13pt;">罗律师</text>
+      <text style="margin-left: 370rpx;font-size: 10pt;">10:25</text>
+      <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">你好，请问需要咨询什么？</text>
+    </view>
+    <view class="splite-kine-solid1"></view>
+    <view id="a1">
+      <image class="btn-img3" src="/images/7971.png_860.png" style="position: fixed; left: 30rpx; width: 110rpx; height: 110rpx; border-radius: 50%; " mode="aspectFill"></image>
+      <text style="margin-left: 160rpx;font-size: 13pt;">王律师</text>
+      <text style="margin-left: 370rpx;font-size: 10pt;">19:25</text>
+      <text style="margin-left: 160rpx;font-size:10pt;color: rgb(68,70,69);">希望我的回复对您有帮助！🌹🌹</text>
+    </view>
+    <view class="splite-kine-solid1"></view>
+    <view id="a1">
+      <image class="btn-img3" src="/images/R-C (1).jfif" style="position: fixed; left: 30rpx; width: 110rpx; height: 110rpx; border-radius: 50%; " mode="aspectFill"></image>
+      <text style="margin-left: 160rpx;font-size: 13pt;">赵律师</text>
+      <text style="margin-left: 370rpx;font-size: 10pt;">20:25</text>
+      <text style="margin-left: 160rpx;font-size:10pt;color: rgb(68,70,69);">谢谢您的帮助，很有用！</text>
+    </view>
+    <view class="splite-kine-solid1"></view>
+    <view id="a1">
+      <image class="btn-img3" src="/images/111.jfif" style="position: fixed; left: 30rpx; width: 110rpx; height: 110rpx; border-radius: 50%; " mode="aspectFill"></image>
+      <text style="margin-left: 160rpx;font-size: 13pt;">刘律师</text>
+      <text style="margin-left: 370rpx;font-size: 10pt;">16:25</text>
+      <text style="margin-left: 160rpx;font-size:10pt;color: rgb(68,70,69);">怎么说？能详细描述一下您的情况吗？</text>
+    </view>
+    <view class="splite-kine-solid1"></view>
+  </view>
+  <view wx:if="{{a==2}}">
+    <view class="form-btn-group">
+      <view class="btn-area" id="buttonContainer">
+        <navigator url="/pages/comment/comment" class="s">
+          <image class="btn-img3" src="/images/我的评论.png" style="position: fixed; left: 10rpx; width: 60rpx;" mode="widthFix"></image>
+          <text style="position: absolute;margin-left: 80rpx;font-size: 12pt;">我的评论</text>
+          <image class="btn-img3" src="/images/arrow-right.png" style="position: fixed; right: 10rpx;" mode="widthFix"></image>
+        </navigator>
+      </view>
+      <view class="empty-line"></view>
+      <view class="btn-area" id="buttonContainer">
+        <navigator url="/pages/click/click" class="s">
+          <image class="btn-img3" src="/images/我的点赞.png" style="position: fixed; left: 10rpx; width: 60rpx" mode="widthFix"></image>
+          <text style="position: absolute;margin-left: 80rpx;font-size:12pt;">赞和收藏</text>
+          <image class="btn-img3" src="/images/arrow-right.png" style="position: fixed; right: 10rpx;" mode="widthFix"></image>
+        </navigator>
+      </view>
+      <view class="empty-line"></view>
+      <view class="btn-area" id="buttonContainer">
+        <navigator url="/pages/contact/contact?title=contact" class="s">
+          <image class="btn-img3" src="/images/站内消息.png" style="position: fixed; left: 10rpx; width: 60rpx;" mode="widthFix"></image>
+          <text style="position: absolute;margin-left: 80rpx;font-size: 12pt;">新增关注</text>
+          <image class="btn-img3" src="/images/arrow-right.png" style="position: fixed; right: 10rpx;" mode="widthFix"></image>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

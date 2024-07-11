@@ -1,0 +1,24 @@
+/* pages/comment/comment.wxss */
+.blank1 {
+  height: 20rpx;
+}
+
+.btn-img3 {
+  width: 45rpx;
+  margin-right: 50rpx;
+}
+
+.blank2 {
+  display: flex;
+  flex-direction: row;
+  height: 30rpx;
+}
+
+.a1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.blank4 {
+  height: 5rpx;
+}

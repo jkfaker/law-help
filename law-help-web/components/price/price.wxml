@@ -1,0 +1,7 @@
+<!--components/price/price.wxml-->
+<view class="align" style="color: {{color}};">
+  <view class="mark">¥</view>
+  <view class="number">
+    {{price}}
+  </view>
+</view>

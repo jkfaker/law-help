@@ -1,0 +1,25 @@
+/* components/bottom-buy/bottom-buy.wxss */
+.view1 {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  height: 100rpx;
+}
+.price1 {
+  margin-left: 30rpx;
+}
+.null {
+  flex-grow: 1;
+}
+.button {
+  width: 200rpx;
+  height: 65rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 27rpx;
+  border-radius: 50rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx rgb(161, 161, 161);
+}

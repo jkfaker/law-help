@@ -1,0 +1,36 @@
+<!--pages/buy/buy.wxml-->
+<navigation-bar back="{{true}}" color="black" background="white" title="套餐详情"></navigation-bar>
+
+
+<scroll-view class="scrollarea" scroll-y type="list">
+  <image src="{{list_load.img}}" class="top-img"></image>
+  <view class="view1">
+    <price price="{{list_load.price}}" style="margin-top: 25rpx; margin-bottom: 25rpx;"></price>
+    <view class="title"> {{list_load.title}} </view>
+  </view>
+
+  <view class="view2">
+    <view class="view3">
+      <image class="icon" src="/images/Books.png"></image>
+      <view class="main"> 套餐简介 </view>
+    </view>
+    <text class="text"> {{list_load.pintro}} </text>
+  </view>
+
+  <view class="view2">
+    <view class="view3">
+      <image class="icon" src="/images/document.png"> </image>
+      <view class="main"> 详细介绍 </view>
+    </view>
+    <text class="text"> {{list_load.dintro}} </text>
+  </view>
+
+  <view class="view2">
+    <view class="view3">
+      <image class="icon" src="/images/worn.png"></image>
+      <view class="main"> 套餐说明 </view>
+    </view>
+    <text class="text"> {{list_load.description}} </text>
+  </view>
+</scroll-view>
+<bottom-buy price="{{list_load.price}}"></bottom-buy>

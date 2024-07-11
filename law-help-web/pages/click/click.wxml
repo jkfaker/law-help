@@ -1,0 +1,55 @@
+<navigation-bar title="收到的评论和@" back="{{true}}" background="rgba(255, 123, 0, 1)"></navigation-bar>
+<view class="blank1"></view>
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230801170010.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只快乐的猪 </text>
+  <text style="border:tomato solid 1px;border-radius: 20%;">作者</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">在评论中@了你 11-03</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 点击回复</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/头像1.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只悲伤的猪 </text>
+  <text style="border:tomato solid 1px;border-radius: 20%;">作者</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">在评论中@了你 08-17</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 点击回复</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230811115528.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">一只快乐的猪</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">在评论中@了你 06-15</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 点击回复</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 150rpx;font-size: 13pt;">楚夫人</text>
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; right: 0rpx; width: 100rpx; height: 100rpx; border-radius: 10%; " mode="aspectFill"></image>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size: 10pt;">在评论中@了你 06-15</text>
+  <view class="blank4"></view>
+  <text style="margin-left: 150rpx;font-size:10pt;color:rgb(68, 70, 69);">| 点击回复</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>

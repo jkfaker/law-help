@@ -1,0 +1,15 @@
+<!--pages/community/community.wxml-->
+<navigation-bar title="法律圈" background="rgba(255, 123, 0, 1)"></navigation-bar>
+<scroll-view scroll-y type="list" class="scrollarea" bindrefresherrefresh="fresh" refresher-enabled="true">
+  <!-- 块状栏区域 -->
+  <view class="grid-list">
+    <view class="grid-item" wx:for="{{gridlist}}" wx:key="id">
+      <image src="{{item.image}}" mode="widthFix" class="picture"></image>
+      <view class="title">{{item.title}}</view>
+      <view class="author">
+        <image src="{{item.head}}" class="author-head"></image>
+        <view class="author-name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

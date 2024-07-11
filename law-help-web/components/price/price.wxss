@@ -1,0 +1,20 @@
+/* components/price/price.wxss */
+
+.align{
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 25rpx; */
+  /* margin-bottom: 30rpx; */
+  height: 50rpx;
+  align-items: flex-end;
+}
+
+.mark {
+  font-size: 30rpx;
+}
+
+.number {
+  margin-left: 15rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+}

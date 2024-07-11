@@ -1,0 +1,57 @@
+/* pages/buy/buy.wxss */
+
+.top-img {
+  width: 100%;
+  height: 470rpx;
+}
+
+.view1 {
+  padding-left: 30rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 180rpx;
+}
+
+.title {
+
+  font-weight: bold;
+  font-size: 36rpx;
+}
+
+/* .price {
+  height: 50rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-top: 25rpx;
+  color: #fd4719;
+  margin-bottom: 30rpx;
+ } */
+
+.view2 {
+  background-color: white;
+  margin: 15rpx 3% 0 3%;
+  border-radius: 10rpx;
+  overflow: hidden;
+  padding: 50rpx 50rpx 70rpx 50rpx;
+}
+
+.view3 {
+  display: flex;
+  flex-direction: row;
+  height: 70rpx;
+  align-items: flex-start;
+  margin-bottom: 20rpx;
+}
+
+.icon {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.main {
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-left: 25rpx;
+  margin-top: 9rpx;
+}

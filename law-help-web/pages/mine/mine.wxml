@@ -1,0 +1,18 @@
+<!--pages/mine/mine.wxml-->
+<view class="whole">
+  <view class="info">
+    <image class="head" src=" {{users.head}} " mode="widthFix"></image>
+    <view class="text1">
+      <view class="name">{{ users.name }}</view>
+      <view class="phone"> 手机：{{users.phone }} </view>
+    </view>
+    <image class="edit" src="/images/edit.png"></image>
+  </view>
+  <view class="list1">
+    <view class="item1" wx:for="{{items}}" wx:key="id">
+      <image class="icon" src="{{ item.icon }}"></image>
+      <view class="title">{{item.title}}</view>
+      <view class="arrow">></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,60 @@
+<navigation-bar title="新增关注" back="{{true}}" background="rgba(255, 123, 0, 1)"></navigation-bar>
+<view class="blank1"></view>
+<view id="a1">
+  <image class="btn-img3" src="/images/swiper4.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">罗律师</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 10-28</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+<view id="a1">
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">李律师</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 10-02</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230801170010.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">一只快乐的猪</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 09-28</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/OIP-C.jfif" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">罗律师</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 08-14</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/R-C (1).jfif" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">夏律师</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 07-15</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>
+
+<view id="a1">
+  <image class="btn-img3" src="/images/Weixin Image_20230811115528.jpg" style="position: fixed; left: 30rpx; width: 100rpx; height: 100rpx; border-radius: 50%; " mode="aspectFill"></image>
+  <text style="margin-left: 160rpx;font-size: 13pt;">一只悲伤的猪</text>
+  <view style="border:chocolate solid 1px;width: 70px;height: 25px;margin-left: 580rpx;text-align: center;border-radius: 20%; ">回关</view>
+  <text style="margin-left: 160rpx;font-size:10pt;color:rgb(68, 70, 69);">开始关注你了 04-30</text>
+</view>
+<view class="blank2"></view>
+<view class="splite-kine-solid" style="margin-bottom: 10rpx;"></view>
+<view class="blank1"></view>

@@ -1,0 +1,110 @@
+/* pages/message/message.wxss */
+page {
+  background-color: white;
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+}
+
+.top-view {
+  height: 190rpx;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 200rpx; */
+  /* background-color: red; */
+}
+
+.exchange1 {
+  text-align: center;
+  height: 190rpx;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  left: -5%;
+}
+
+.exchange2 {
+  height: 190rpx;
+  width: 190rpx;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-img {
+  width: 105rpx;
+  /* margin-top: 180rpx; */
+  margin-left: 15rpx;
+}
+
+/* .btn-img{
+  width: 105rpx;
+  margin-top: 20rpx;
+  background-color: blue; 
+  margin-left: 25rpx;
+}
+  */
+#c1 {
+  /* margin-left:140rpx; */
+  font-size: 10pt;
+  /* background-color: red; */
+  width: 150rpx;
+}
+
+#c2 {
+  margin-left: 30rpx;
+  width: 150rpx;
+  font-size: 10pt;
+  /* background-color: green; */
+  width: 150rpx;
+}
+
+.c3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.splite-kine-solid {
+  height: 7px;
+  border: none;
+  border-top: 1px solid rgb(163, 155, 155);
+}
+
+.splite-kine-solid1 {
+  height: 10px;
+  border: none;
+  margin-left: 155rpx;
+  margin-right: 20rpx;
+  margin-top: 0rpx;
+  border-top: 0.5px solid rgb(163, 155, 155);
+}
+
+#a1 {
+  display: block;
+  height: 140rpx;
+  width: 100%;
+  /* margin-left: 15rpx; */
+}
+
+.btn-img3 {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.empty-line {
+  height: 40rpx;
+  width: 100%;
+}
+
+.s {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40rpx;
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}

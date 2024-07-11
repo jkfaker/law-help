@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "price": "/components/price/price",
+    "bottom-buy": "/components/bottom-buy/bottom-buy"
+  }
+}

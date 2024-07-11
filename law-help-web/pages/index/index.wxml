@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<navigation-bar back="{{false}}" color="black" background="#EDEDED" title=""></navigation-bar>
+<!-- 搜索栏 -->
+<navigator url="/pages/search/search" open-type="navigate" class="search-border" hover-class="none">
+  <image src="/images/search1.png" class="search-img" mode="heightFix"></image>
+  <view class="search-view">请输入您要搜索的内容</view>
+</navigator>
+<scroll-view class="scrollarea" scroll-y type="list">
+
+
+
+  <!-- 轮播图 -->
+  <swiper class="swiper1" mode="multiple" autoplay="true" circular="true" indicator-dots="true" interval="3000" indicator-color="#999" indicator-active-color="#fff">
+    <swiper-item wx:for="{{swiperList1}}" wx:key="id">
+      <navigator open-type="navigate" style="width: 100%; height: 100%;" wx:key="id" url="/pages/buy/buy?name={{item.id}}" hover-class="none">
+        <image src="{{item.img}}"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+
+  <!-- 团队介绍 -->
+  <view class="teams">
+    <image src="/images/admin.png" mode="heightFix"></image>
+    <view>团队介绍</view>
+    <view id="teams-view"> > </view>
+  </view>
+
+  <!-- 块状栏区域 -->
+  <view class="grid-list">
+    <navigator open-type="navigate" class="grid-item" wx:for="{{gridlist}}" wx:key="id" url="/pages/buy/buy?name={{item.id}}" hover-class="none">
+      <image src="{{item.image}}" mode="aspectFill"></image>
+      <view class="grid-text">{{item.title}}</view>
+      <price price="{{item.price}}" id="grid-price"></price>
+      <view>
+        <button type="blue">立即咨询</button>
+      </view>
+    </navigator>
+  </view>
+</scroll-view>

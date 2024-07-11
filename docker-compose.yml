@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql
+    container_name: law-help-mysql
+    ports:
+      - "3307:3306"
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: lqd31415926
+    volumes:
+      - "./mysql/conf:/etc/mysql/conf.d"
+      - "./mysql/data:/var/lib/mysql"
+      - "./mysql/init:/docker-entrypoint-initdb.d"
+    networks:
+      - law-help-net
+  law-help-jar:
+    build: 
+      context: .
+      dockerfile: law-help-dockerfile
+    container_name: law-help-jar
+    ports:
+      - "8081:8080"
+    networks:
+      - law-help-net
+    depends_on:
+      - mysql
+networks:
+  law-help-net:
+    name: law-help

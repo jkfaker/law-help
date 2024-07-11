@@ -1,0 +1,6 @@
+<!--components/bottom-buy/bottom-buy.wxml-->
+<view style="background-color: {{backgroundcolor}};" class="view1">
+  <view class="price1"><price price="{{ price }}"></price></view>
+  <view class="null"></view>
+  <view class="button" bind:tap="buy" style="background-color: {{btn_bgc}}; color: {{ fcolor }};">立即咨询</view>
+</view>

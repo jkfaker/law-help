@@ -1,0 +1,77 @@
+/* pages/mine/mine.wxss */
+page {
+  background-color: rgba(255, 123, 0, 1);
+  padding-top: 100rpx;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  align-items: center;
+  margin-bottom: 50rpx;
+  color: white;
+}
+
+.head {
+  width: 110rpx;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  flex-grow: 1;
+}
+
+.phone {
+  font-size: 26rpx;
+}
+
+
+.edit {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 40rpx;
+}
+
+.list1 {
+  background-color: white;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 70rpx 50rpx 50rpx 50rpx;
+  height: 2000rpx;
+}
+
+.item1 {
+  margin-bottom: 45rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50rpx;
+}
+
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.title {
+  margin-left: 30rpx;
+  font-weight: bolder;
+  font-size: 32rpx;
+  flex-grow: 1;
+}
+
+.arrow {
+  font-size: 50rpx;
+  color: gray;
+}

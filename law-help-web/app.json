@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/community/community",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/buy/buy",
+    "pages/contact/contact",
+    "pages/comment/comment",
+    "pages/click/click"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "/images/community.png",
+        "selectedIconPath": "/images/community-active.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "/images/message.png",
+        "selectedIconPath": "/images/message_active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/mine.png",
+        "selectedIconPath": "/images/mine-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
